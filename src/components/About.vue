@@ -14,7 +14,7 @@ const stack = computed(() => {
             <h2 class="pb-3 text-3xl font-bold md:text-4xl">Unmasking the Enigma</h2>
             <p class="dark:text-neutral-600">Explore the captivating world of my passion-driven pursuits in web development, product design, and content writing.</p>
         </div>
-        <div class="grid grid-cols-2 gap-5 md:grid-cols-4 mx-auto justify-center items-center">
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-4 mx-auto justify-center items-center">
             <div class="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 border border-solid border-neutral-600">
                 <div class="flex justify-between p-4">
                     <div class="flex space-x-4">
