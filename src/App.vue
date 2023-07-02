@@ -6,6 +6,7 @@ import heroSection from '../src/components/hero.vue'
 import myTools from '../src/components/tools.vue'
 import about from '../src/components/About.vue'
 import testimonial from '../src/components/testimonial.vue'
+import homeFooter from '../src/components/footer.vue'
 import GithubSVG from './assets/github.svg'
 
 const store = useStore()
@@ -33,6 +34,7 @@ const stack = computed(() => {
     <myTools />
     <about />
     <testimonial />
+    <homeFooter />
 </template>
 <style lang="scss">
 #app {
