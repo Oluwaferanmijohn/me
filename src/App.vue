@@ -9,6 +9,7 @@ import testimonial from '../src/components/testimonial.vue'
 import contact from '../src/components/contact.vue'
 import homeFooter from '../src/components/footer.vue'
 import blog from '../src/pages/blog.vue'
+import book from "../src/components/books.vue"
 import GithubSVG from './assets/github.svg'
 
 const store = useStore()
@@ -35,6 +36,7 @@ const stack = computed(() => {
     <heroSection />
     <about />
     <myTools />
+    <book />
     <blog />
     <testimonial />
     <contact />
