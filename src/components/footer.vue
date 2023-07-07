@@ -1,5 +1,5 @@
 <template>
-    <div class="dark:bg-black text-center justify-center">
+    <div class=" bg-black text-center justify-center">
         <ul class="flex justify-center pb-8 gap-6 md:gap-8">
             <li>
                 <a href="/" rel="noreferrer" target="_blank" class="text-neutral-600 transition hover:text-neutral-600/75">

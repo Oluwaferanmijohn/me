@@ -1,5 +1,5 @@
 <template>
-    <header class="dark:bg-black  sticky top-0 z-50">
+    <header class=" bg-black  sticky top-0 z-50">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="">
@@ -13,31 +13,31 @@
                     <nav aria-label="Global" class="block  items-center">
                         <ul class="flex items-center gap-6 text-lg">
                             <li>
-                                <a class="text-neutral-600 transition hover:text-neutral-600/75 dark:text-neutral-600 dark:hover:text-neutral-600/75" href="/"
+                                <a class="text-neutral-600 transition hover:text-neutral-600/75  text-neutral-600  hover:text-neutral-600/75" href="/"
                                     ><ion-icon name="logo-facebook"></ion-icon>
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-neutral-600 transition hover:text-neutral-600/75 dark:text-neutral-600 dark:hover:text-neutral-600/75" href="/">
+                                <a class="text-neutral-600 transition hover:text-neutral-600/75  text-neutral-600  hover:text-neutral-600/75" href="/">
                                     <ion-icon name="logo-twitter"></ion-icon>
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-neutral-600 transition hover:text-neutral-600/75 dark:text-neutral-600 dark:hover:text-neutral-600/75" href="/">
+                                <a class="text-neutral-600 transition hover:text-neutral-600/75  text-neutral-600  hover:text-neutral-600/75" href="/">
                                     <ion-icon name="logo-linkedin"></ion-icon>
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-neutral-600 transition hover:text-neutral-600/75 dark:text-neutral-600 dark:hover:text-neutral-600/75" href="/">
+                                <a class="text-neutral-600 transition hover:text-neutral-600/75  text-neutral-600  hover:text-neutral-600/75" href="/">
                                     <ion-icon name="logo-instagram"></ion-icon>
                                 </a>
                             </li>
 
                             <li>
-                                <a class="text-neutral-600 transition hover:text-neutral-600/75 dark:text-neutral-600 dark:hover:text-neutral-600/75" href="/">
+                                <a class="text-neutral-600 transition hover:text-neutral-600/75  text-neutral-600  hover:text-neutral-600/75" href="/">
                                     <ion-icon name="logo-github"></ion-icon>
                                 </a>
                             </li>

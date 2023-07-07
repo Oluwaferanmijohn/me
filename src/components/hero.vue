@@ -1,7 +1,7 @@
 <template>
-    <section class="dark:bg-black dark:text-gray-100">
+    <section class=" bg-black  text-gray-100">
         <div class="flex items-center justify-center">
-            <img src="../assets/images/image.png" alt="" class="border-2 border-blue-700 border-dashed object-contain w-32 h-32 mx-auto rounded-full dark:bg-black aspect-square" />
+            <img src="../assets/images/image.png" alt="" class="border-2 border-blue-700 border-dashed object-contain w-32 h-32 mx-auto rounded-full  bg-black aspect-square" />
         </div>
         <div class="container mx-auto flex flex-col items-center px-4 py-6 text-center md:py-12 md:px-10 lg:px-32 xl:max-w-3xl">
             <h1 class="text-2xl font-bold leadi sm:text-3xl">
@@ -22,8 +22,8 @@
                 >
                     Say hi 👋
                 </button>
-                <button class="items-center px-8 py-3 m-2 text-lg border rounded dark:text-white font-semibold hover:bg-blue-500 hover: border-blue-500">
-                    Read me 📚
+                <button class="items-center px-8 py-3 m-2 text-lg border rounded  text-white font-semibold hover:bg-blue-500 hover: border-blue-500">
+                    About me 📚
                     <!-- <span class="items-center text-blue-500">
                         <ion-icon name="book"></ion-icon>
                     </span> -->

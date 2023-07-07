@@ -1,172 +1,125 @@
-<script setup>
-import { computed } from 'vue'
-import { useStore } from 'vuex'
-
-const store = useStore()
-const stack = computed(() => {
-    return store.state.stack
-})
-</script>
-
 <template>
-    <div class="p-5 dark:bg-black text-neutral-600">
-        <div class="container dark:text-white p-4 mx-auto my-6 space-y-1 text-center">
-            <h2 class="pb-3 text-3xl font-bold md:text-4xl">Unmasking the Enigma</h2>
-            <p class="dark:text-neutral-600">Explore the captivating world of my passion-driven pursuits in web development, product design, and content writing.</p>
-        </div>
-        <div class="grid grid-cols-1 gap-5 md:grid-cols-4 mx-auto justify-center items-center">
-            <div class="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 border border-solid border-neutral-600">
-                <div class="flex justify-between p-4">
-                    <div class="flex space-x-4">
-                        <div>
-                            <img src="https://source.unsplash.com/100x100/?portrait" alt="" class="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
-                        </div>
-                        <div>
-                            <h4 class="font-bold dark:text-white">Declaración Personal</h4>
-                            <span class="text-xs dark:text-neutral-600">Updated recently </span>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-2 dark:text-yellow-500">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
-                            <path
-                                d="M494,198.671a40.536,40.536,0,0,0-32.174-27.592L345.917,152.242,292.185,47.828a40.7,40.7,0,0,0-72.37,0L166.083,152.242,50.176,171.079a40.7,40.7,0,0,0-22.364,68.827l82.7,83.368-17.9,116.055a40.672,40.672,0,0,0,58.548,42.538L256,428.977l104.843,52.89a40.69,40.69,0,0,0,58.548-42.538l-17.9-116.055,82.7-83.368A40.538,40.538,0,0,0,494,198.671Zm-32.53,18.7L367.4,312.2l20.364,132.01a8.671,8.671,0,0,1-12.509,9.088L256,393.136,136.744,453.3a8.671,8.671,0,0,1-12.509-9.088L144.6,312.2,50.531,217.37a8.7,8.7,0,0,1,4.778-14.706L187.15,181.238,248.269,62.471a8.694,8.694,0,0,1,15.462,0L324.85,181.238l131.841,21.426A8.7,8.7,0,0,1,461.469,217.37Z"
-                            ></path>
-                        </svg>
-                        <span class="text-xl font-bold">4.5</span> -->
-                    </div>
-                </div>
-                <div class="p-4 space-y-2 text-sm dark:text-neutral-600">
-                    <p>Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu dictum lectus consequat vitae. Etiam ut dolor id justo fringilla finibus.</p>
-                    <p>
-                        Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu mauris cursus venenatis. Maecenas gravida urna vitae accumsan feugiat. Vestibulum commodo, ante sit urna purus
-                        rutrum sem.
-                    </p>
-                </div>
-                <a class="inline-flex p-3 items-center text-sm text-neutral-400" href="/components">
-                    <span class="mr-3 border-neutral-600 border-dotted border-b">Read In Full</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-                        <path
-                            fill-rule="evenodd"
-                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd"
-                        ></path>
-                    </svg>
-                </a>
+    <section class="py-8 bg-black text-gray-100">
+        <div class="container mx-auto">
+            <div class="p-4 mx-auto text-center md:px-10 lg:px-32 xl:max-w-4xl">
+                <h2 class="text-2xl font-bold leadi sm:text-4xl">About Me</h2>
+                <p class="px-8 my-4 text-neutral-600">Explore the captivating world of my passion-driven pursuits in web development, product design, and content writing.</p>
             </div>
-            <div class="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 border border-solid border-neutral-600">
-                <div class="flex justify-between p-4">
-                    <div class="flex space-x-4">
-                        <div>
-                            <img src="https://source.unsplash.com/100x100/?portrait" alt="" class="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
-                        </div>
-                        <div>
-                            <h4 class="font-bold dark:text-white">Skills & Expertise</h4>
-                            <span class="text-xs dark:text-neutral-600">Updated recently </span>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-2 dark:text-yellow-500">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
-                            <path
-                                d="M494,198.671a40.536,40.536,0,0,0-32.174-27.592L345.917,152.242,292.185,47.828a40.7,40.7,0,0,0-72.37,0L166.083,152.242,50.176,171.079a40.7,40.7,0,0,0-22.364,68.827l82.7,83.368-17.9,116.055a40.672,40.672,0,0,0,58.548,42.538L256,428.977l104.843,52.89a40.69,40.69,0,0,0,58.548-42.538l-17.9-116.055,82.7-83.368A40.538,40.538,0,0,0,494,198.671Zm-32.53,18.7L367.4,312.2l20.364,132.01a8.671,8.671,0,0,1-12.509,9.088L256,393.136,136.744,453.3a8.671,8.671,0,0,1-12.509-9.088L144.6,312.2,50.531,217.37a8.7,8.7,0,0,1,4.778-14.706L187.15,181.238,248.269,62.471a8.694,8.694,0,0,1,15.462,0L324.85,181.238l131.841,21.426A8.7,8.7,0,0,1,461.469,217.37Z"
-                            ></path>
-                        </svg>
-                        <span class="text-xl font-bold">4.5</span> -->
-                    </div>
+            <div class="flex md:flex-row flex-col items-center justify-center place-items-center">
+                <div class="flex justify-center px-4 col-span-full md:col-span-1 md:flex-col md:justify-start md:items-start">
+                    <button
+                        @click="toggleContent('introduction')"
+                        :class="{
+                            'text-gray-50': activeSection === 'introduction',
+                            'text-gray-400': activeSection !== 'introduction',
+                            'border-b-2 border-blue-400 md:border-l-2 md:border-b-0': activeSection === 'introduction',
+                            'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'introduction',
+                        }"
+                        class="p-2 border-b-2 md:border-l-2 md:border-b-0 md:py-3 border-gray-300 text-gray-400"
+                    >
+                        Intro
+                    </button>
+                    <button
+                        @click="toggleContent('background')"
+                        :class="{
+                            'text-gray-50': activeSection === 'background',
+                            'text-gray-400': activeSection !== 'background',
+                            'border-b-2 border-blue-400 md:border-l-2 md:border-b-0': activeSection === 'background',
+                            'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'background',
+                        }"
+                        class="px-2 py-1 md:py-3 text-gray-400"
+                    >
+                        Background
+                    </button>
+                    <button
+                        @click="toggleContent('expertise')"
+                        :class="{
+                            'text-gray-50': activeSection === 'expertise',
+                            'text-gray-400': activeSection !== 'expertise',
+                            'border-b-2 border-blue-400 md:border-l-2 md:border-b-0': activeSection === 'expertise',
+                            'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'expertise',
+                        }"
+                        class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 border-gray-300 text-gray-400"
+                    >
+                        Expertise
+                    </button>
+                    <button
+                        @click="toggleContent('experience')"
+                        :class="{
+                            'text-gray-50': activeSection === 'experience',
+                            'text-gray-400': activeSection !== 'experience',
+                            'border-b-2 border-blue-400 md:border-l-2 md:border-b-0': activeSection === 'experience',
+                            'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'experience',
+                        }"
+                        class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 border-gray-300 text-gray-400"
+                    >
+                        Experience
+                    </button>
+                    <!-- <button
+            @click="toggleContent('relevant')"
+            :class="{
+              'text-gray-50': activeSection === 'relevant',
+              'text-gray-400': activeSection !== 'relevant',
+            }"
+            class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 border-gray-300 text-gray-400"
+          >
+            !relevant
+          </button> -->
                 </div>
-                <div class="p-4 space-y-2 text-sm dark:text-neutral-600">
-                    <p>Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu dictum lectus consequat vitae. Etiam ut dolor id justo fringilla finibus.</p>
-                    <p>
-                        Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu mauris cursus venenatis. Maecenas gravida urna vitae accumsan feugiat. Vestibulum commodo, ante sit urna purus
-                        rutrum sem.
-                    </p>
+                <div class=" ">
+                    <div v-if="activeSection === 'introduction'">
+                        <introductionVue />
+                    </div>
+
+                    <div class="text-green-600" v-if="activeSection === 'experience'">
+                        <experienceVue />
+                    </div>
+                    <div class="text-gray-700" v-if="activeSection === 'expertise'">
+                        <expertiseVue />
+                    </div>
+                    <div class="text-orange-600" v-if="activeSection === 'background'">
+                        <backgroundVue />
+                    </div>
+
+                    <!-- <router-view /> -->
                 </div>
-                <a class="inline-flex p-3 items-center text-sm text-neutral-400" href="/components">
-                    <span class="mr-3 border-neutral-600 border-dotted border-b">Read In Full</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-                        <path
-                            fill-rule="evenodd"
-                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd"
-                        ></path>
-                    </svg>
-                </a>
             </div>
-            <div class="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 border border-solid border-neutral-600">
-                <div class="flex justify-between p-4">
-                    <div class="flex space-x-4">
-                        <div>
-                            <img src="https://source.unsplash.com/100x100/?portrait" alt="" class="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
-                        </div>
-                        <div>
-                            <h4 class="font-bold dark:text-white">Credentials</h4>
-                            <span class="text-xs dark:text-neutral-600">Updated recently </span>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-2 dark:text-yellow-500">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
-                            <path
-                                d="M494,198.671a40.536,40.536,0,0,0-32.174-27.592L345.917,152.242,292.185,47.828a40.7,40.7,0,0,0-72.37,0L166.083,152.242,50.176,171.079a40.7,40.7,0,0,0-22.364,68.827l82.7,83.368-17.9,116.055a40.672,40.672,0,0,0,58.548,42.538L256,428.977l104.843,52.89a40.69,40.69,0,0,0,58.548-42.538l-17.9-116.055,82.7-83.368A40.538,40.538,0,0,0,494,198.671Zm-32.53,18.7L367.4,312.2l20.364,132.01a8.671,8.671,0,0,1-12.509,9.088L256,393.136,136.744,453.3a8.671,8.671,0,0,1-12.509-9.088L144.6,312.2,50.531,217.37a8.7,8.7,0,0,1,4.778-14.706L187.15,181.238,248.269,62.471a8.694,8.694,0,0,1,15.462,0L324.85,181.238l131.841,21.426A8.7,8.7,0,0,1,461.469,217.37Z"
-                            ></path>
-                        </svg>
-                        <span class="text-xl font-bold">4.5</span> -->
-                    </div>
-                </div>
-                <div class="p-4 space-y-2 text-sm dark:text-neutral-600">
-                    <p>Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu dictum lectus consequat vitae. Etiam ut dolor id justo fringilla finibus.</p>
-                    <p>
-                        Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu mauris cursus venenatis. Maecenas gravida urna vitae accumsan feugiat. Vestibulum commodo, ante sit urna purus
-                        rutrum sem.
-                    </p>
-                </div>
-                <a class="inline-flex p-3 items-center text-sm text-neutral-400" href="/components">
-                    <span class="mr-3 border-neutral-600 border-dotted border-b">Read In Full</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-                        <path
-                            fill-rule="evenodd"
-                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd"
-                        ></path>
-                    </svg>
-                </a>
-            </div>
-            <div class="container flex flex-col w-full max-w-lg p-6 mx-auto divide-y rounded-md divide-gray-700 border border-solid border-neutral-600">
-                <div class="flex justify-between p-4">
-                    <div class="flex space-x-4">
-                        <div>
-                            <img src="https://source.unsplash.com/100x100/?portrait" alt="" class="object-cover w-12 h-12 rounded-full dark:bg-gray-500" />
-                        </div>
-                        <div>
-                            <h4 class="font-bold dark:text-white">works & projects</h4>
-                            <span class="text-xs dark:text-neutral-600">Updated recently </span>
-                        </div>
-                    </div>
-                    <div class="flex items-center space-x-2 dark:text-yellow-500">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 h-5 fill-current">
-                            <path
-                                d="M494,198.671a40.536,40.536,0,0,0-32.174-27.592L345.917,152.242,292.185,47.828a40.7,40.7,0,0,0-72.37,0L166.083,152.242,50.176,171.079a40.7,40.7,0,0,0-22.364,68.827l82.7,83.368-17.9,116.055a40.672,40.672,0,0,0,58.548,42.538L256,428.977l104.843,52.89a40.69,40.69,0,0,0,58.548-42.538l-17.9-116.055,82.7-83.368A40.538,40.538,0,0,0,494,198.671Zm-32.53,18.7L367.4,312.2l20.364,132.01a8.671,8.671,0,0,1-12.509,9.088L256,393.136,136.744,453.3a8.671,8.671,0,0,1-12.509-9.088L144.6,312.2,50.531,217.37a8.7,8.7,0,0,1,4.778-14.706L187.15,181.238,248.269,62.471a8.694,8.694,0,0,1,15.462,0L324.85,181.238l131.841,21.426A8.7,8.7,0,0,1,461.469,217.37Z"
-                            ></path>
-                        </svg>
-                        <span class="text-xl font-bold">4.5</span> -->
-                    </div>
-                </div>
-                <div class="p-4 space-y-2 text-sm dark:text-neutral-600">
-                    <p>Vivamus sit amet turpis leo. Praesent varius eleifend elit, eu dictum lectus consequat vitae. Etiam ut dolor id justo fringilla finibus.</p>
-                    <p>
-                        Donec eget ultricies diam, eu molestie arcu. Etiam nec lacus eu mauris cursus venenatis. Maecenas gravida urna vitae accumsan feugiat. Vestibulum commodo, ante sit urna purus
-                        rutrum sem.
-                    </p>
-                </div>
-                <a class="inline-flex p-3 items-center text-sm text-neutral-400" href="/components">
-                    <span class="mr-3 border-neutral-600 border-dotted border-b">Read In Full</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
-                        <path
-                            fill-rule="evenodd"
-                            d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd"
-                        ></path>
-                    </svg>
-                </a>
+            <div class="justify-center text-center items-center">
+                <button class="border-neutral-600 border-b-2 border-dotted text-neutral-600 hover:border-neutral-800 hover:text-neutral-300">Download CV</button>
             </div>
         </div>
-    </div>
+    </section>
 </template>
+<script>
+import introductionVue from '../pages/introduction.vue'
+// import relevantVue from "../pages/relevant.vue";
+import experienceVue from '../pages/experience.vue'
+import expertiseVue from '../pages/expertise.vue'
+import backgroundVue from '../pages/background.vue'
+export default {
+    data() {
+        return {
+            activeSection: 'introduction',
+        }
+    },
+    methods: {
+        toggleContent(section) {
+            this.activeSection = section
+        },
+    },
+    components: {
+        introductionVue,
+        // relevantVue,
+        experienceVue,
+        expertiseVue,
+        backgroundVue,
+    },
+}
+</script>
+<style>
+.gradient-text {
+    background: linear-gradient(to right, from green, via blue, to purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>

@@ -1,17 +1,13 @@
 <template>
-    <section class="dark:bg-black overflow-hidden px-3">
-        <div class="mx-auto max-w-[1340px] px-4 py-16 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
+    <section class="bg-black overflow-hidden px-3">
+        <div class="mx-auto max-w-[1340px] px-4 py-10 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
             <div class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16">
                 <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h2 class="text-3xl dark:text-white font-bold tracking-tight sm:text-4xl">
-                        Don't just take our word for it...
-                        <br class="hidden sm:block lg:hidden" />
-                        Read reviews from our customers
-                    </h2>
+                    <h2 class="text-3xl text-white font-bold tracking-tight sm:text-4xl">clients' reviews</h2>
 
-                    <p class="mt-4 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas veritatis illo placeat harum porro optio fugit a culpa sunt id!</p>
+                    <p class="mt-4 text-neutral-600">Read some of our client reviews about the service by us to them</p>
 
-                    <div class="hidden lg:mt-8 lg:flex lg:gap-4">
+                    <div class="hidden lg:mt-8 lg:flex lg:gap-4 justify-center">
                         <button class="prev-button rounded-full border border-neutral-600 p-3 text-neutral-600 hover:bg-neutral-600 hover:text-white">
                             <span class="sr-only">Previous Slide</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5 rtl:rotate-180">
@@ -32,7 +28,7 @@
                     <div class="swiper-container !overflow-hidden">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <blockquote class="flex h-full flex-col justify-between bg-white p-12">
+                                <blockquote class="flex h-full flex-col justify-between bg-neutral-800 p-12">
                                     <div>
                                         <div class="flex gap-0.5 text-green-500">
                                             <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -67,16 +63,16 @@
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-neutral-600 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-white sm:text-3xl">Stayin' Alive</p>
 
-                                            <p class="mt-4 leading-relaxed text-gray-500">
+                                            <p class="mt-4 leading-relaxed text-neutral-600">
                                                 No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we
                                                 bother resuscitating them? I mean, what quality of life do we have there?
                                             </p>
                                         </div>
                                     </div>
 
-                                    <footer class="mt-8 text-sm text-gray-500">&mdash; Michael Scott</footer>
+                                    <footer class="mt-8 text-sm text-neutral-600">&mdash; Michael Scott</footer>
                                 </blockquote>
                             </div>
 
@@ -116,16 +112,16 @@
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-neutral-600 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-white sm:text-3xl">Stayin' Alive</p>
 
-                                            <p class="mt-4 leading-relaxed text-gray-500">
+                                            <p class="mt-4 leading-relaxed text-neutral-600">
                                                 No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we
                                                 bother resuscitating them? I mean, what quality of life do we have there?
                                             </p>
                                         </div>
                                     </div>
 
-                                    <footer class="mt-8 text-sm text-gray-500">&mdash; Michael Scott</footer>
+                                    <footer class="mt-8 text-sm text-neutral-600">&mdash; Michael Scott</footer>
                                 </blockquote>
                             </div>
 
@@ -165,16 +161,16 @@
                                         </div>
 
                                         <div class="mt-4">
-                                            <p class="text-2xl font-bold text-neutral-600 sm:text-3xl">Stayin' Alive</p>
+                                            <p class="text-2xl font-bold text-white sm:text-3xl">Stayin' Alive</p>
 
-                                            <p class="mt-4 leading-relaxed text-gray-500">
+                                            <p class="mt-4 leading-relaxed text-neutral-600">
                                                 No, Rose, they are not breathing. And they have no arms or legs … Where are they? You know what? If we come across somebody with no arms or legs, do we
                                                 bother resuscitating them? I mean, what quality of life do we have there?
                                             </p>
                                         </div>
                                     </div>
 
-                                    <footer class="mt-8 text-sm text-gray-500">&mdash; Michael Scott</footer>
+                                    <footer class="mt-8 text-sm text-neutral-600">&mdash; Michael Scott</footer>
                                 </blockquote>
                             </div>
                         </div>

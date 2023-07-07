@@ -2,11 +2,13 @@
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 import navbar from '../src/components/navbar.vue'
-import heroSection from '../src/components/hero.vue'
+import heroSection from '../src/components/header.vue'
 import myTools from '../src/components/tools.vue'
 import about from '../src/components/About.vue'
 import testimonial from '../src/components/testimonial.vue'
+import contact from '../src/components/contact.vue'
 import homeFooter from '../src/components/footer.vue'
+import blog from '../src/pages/blog.vue'
 import GithubSVG from './assets/github.svg'
 
 const store = useStore()
@@ -31,9 +33,11 @@ const stack = computed(() => {
 <template>
     <navbar />
     <heroSection />
-    <myTools />
     <about />
+    <myTools />
+    <blog />
     <testimonial />
+    <contact />
     <homeFooter />
 </template>
 <style lang="scss">
