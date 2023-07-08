@@ -8,8 +8,9 @@ import about from '../src/components/About.vue'
 import testimonial from '../src/components/testimonial.vue'
 import contact from '../src/components/contact.vue'
 import homeFooter from '../src/components/footer.vue'
+import portfolio from '../src/components/portfolio.vue'
 import blog from '../src/pages/blog.vue'
-import book from "../src/components/books.vue"
+import book from '../src/components/books.vue'
 import GithubSVG from './assets/github.svg'
 
 const store = useStore()
@@ -36,6 +37,7 @@ const stack = computed(() => {
     <heroSection />
     <about />
     <myTools />
+    <portfolio />
     <book />
     <blog />
     <testimonial />
