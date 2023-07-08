@@ -3,7 +3,7 @@
         <div class="container px-6 py-10 mx-auto">
             <div class="lg:flex lg:items-center lg:-mx-10">
                 <div class="lg:w-1/2 lg:mx-10">
-                    <h1 class="text-2xl font-semibold  capitalize text-white lg:text-3xl">Let’s talk</h1>
+                    <h1 class="text-2xl font-semibold capitalize text-white lg:text-3xl">Let’s talk</h1>
 
                     <p class="mt-4 text-neutral-500">Ask us everything and we would love to hear from you</p>
 
@@ -14,7 +14,7 @@
                                 <input
                                     type="text"
                                     placeholder="John Doe"
-                                    class="block w-full px-5 py-3 mt-2   border   rounded-md placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    class="block w-full px-5 py-3 mt-2 border rounded-md placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 />
                             </div>
 
@@ -23,7 +23,7 @@
                                 <input
                                     type="email"
                                     placeholder="johndoe@example.com"
-                                    class="block w-full px-5 py-3 mt-2   border   rounded-md placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    class="block w-full px-5 py-3 mt-2 border rounded-md placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 />
                             </div>
                         </div>
@@ -31,7 +31,7 @@
                         <div class="w-full mt-4">
                             <label class="block mb-2 text-sm text-neutral-200">Message</label>
                             <textarea
-                                class="block w-full h-32 px-5 py-3 mt-2   border   rounded-md md:h-56 placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                class="block w-full h-32 px-5 py-3 mt-2 border rounded-md md:h-56 placeholder-neutral-600 bg-neutral-900 text-neutral-300 border-neutral-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 placeholder="Message"
                             ></textarea>
                         </div>
@@ -45,11 +45,7 @@
                 </div>
 
                 <div class="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
-                    <img
-                        class="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96"
-                        src="../assets/images/2nd.jpg"
-                        alt=""
-                    />
+                    <img class="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-56 h-56" src="../assets/images/2nd.jpg" alt="" />
 
                     <div class="mt-6 space-y-8 md:mt-8">
                         <p class="flex items-start -mx-2">
@@ -58,7 +54,10 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                             </svg>
 
-                            <span class="mx-2 truncate w-72 text-neutral-600"> Ekiti State University, Ado-Ekiti, Ekiti State, Nigeria. </span>
+                            <span class="mx-2 truncate w-72 text-neutral-600">
+                                Ekiti State University, Ado-Ekiti, <br />
+                                Ekiti State, Nigeria.
+                            </span>
                         </p>
 
                         <p class="flex items-start -mx-2">

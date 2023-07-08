@@ -56,9 +56,9 @@
     </div> -->
 
     <section class="border-b border-dotted border-neutral-600 bg-black">
-         <header class="text-center py-10">
-                <h2 class="text-xl capitalize font-bold text-white sm:text-3xl">  what's happening?</h2>
-            </header>
+        <header class="text-center py-10">
+            <h2 class="text-xl capitalize font-bold text-white sm:text-3xl">what's happening?</h2>
+        </header>
         <div class="container px-6 py-10 mx-auto">
             <div class="lg:flex lg:-mx-6">
                 <div class="lg:w-3/4 lg:px-6">
@@ -117,6 +117,9 @@
                         <h3 class="text-blue-500 capitalize">Premium kits</h3>
 
                         <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400"> Top 10 Ui kit you can get on Blox's collection. </a>
+                    </div>
+                    <div class="justify-center py-5 text-center items-center">
+                        <button class="border-neutral-600 border-b-2 border-dotted text-neutral-600 hover:border-neutral-800 hover:text-neutral-300 capitalize">see all</button>
                     </div>
                 </div>
             </div>
