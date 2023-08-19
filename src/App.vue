@@ -1,61 +1,29 @@
 <script setup>
-import { computed } from 'vue'
-import { useStore } from 'vuex'
-import navbar from '../src/components/navbar.vue'
-import heroSection from '../src/components/header.vue'
-import myTools from '../src/components/tools.vue'
-import about from '../src/components/About.vue'
-import testimonial from '../src/components/testimonial.vue'
-import contact from '../src/components/contact.vue'
-import homeFooter from '../src/components/footer.vue'
-import portfolio from '../src/components/portfolio.vue'
-import blog from '../src/pages/blog.vue'
-import book from '../src/components/books.vue'
-import GithubSVG from './assets/github.svg'
+import navbar from './views/navbar.vue'
+import hero from './views/hero.vue'
+import tools from './views/tools.vue'
+import about from './views/About.vue'
+import project from './views/project.vue'
+import message from './views/message.vue'
+import { RouterLink, RouterView } from 'vue-router'
+import { onMounted } from 'vue'
+import { initFlowbite } from 'flowbite'
 
-const store = useStore()
-const user = ''
-const stack = computed(() => {
-    return store.state.stack
+// initialize components based on data attribute selectors
+onMounted(() => {
+  initFlowbite()
 })
 </script>
 
-<!-- <template>
-    <nav class="relative flex items-center justify-center capitalize text-lg pt-24">
-        <router-link class="inline pr-5" to="/" active-class="active">Home</router-link>
-        <router-link class="inline" to="/about" active-class="active">About</router-link>
-    </nav>
-    <router-view class="p-24"></router-view>
-    <footer>
-        <p class="text-gray-400 text-xs text-center">
-            <a class="flex items-center justify-center text-base font-medium text-black" href="https://github.com/richardevcom/vite-vuex-tailwind"><GithubSVG class="w-5 mr-1" />richardev</a>
-        </p>
-    </footer>
-</template> -->
 <template>
+  <div class="bg-black">
     <navbar />
-    <heroSection />
+    <hero />
+    <tools />
     <about />
-    <myTools />
-    <portfolio />
-    <book />
-    <blog />
-    <testimonial />
-    <contact />
-    <homeFooter />
+    <project />
+    <message />
+  </div>
 </template>
-<style lang="scss">
-#app {
-    @apply h-screen bg-gray-50;
-}
 
-nav {
-    a.active {
-        &::after {
-            @apply block w-full bg-green-500;
-            content: '';
-            height: 1.5px;
-        }
-    }
-}
-</style>
+<style scoped></style>
