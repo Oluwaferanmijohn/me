@@ -34,9 +34,10 @@
         Innovative Pursuits
       </button> -->
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <div class="mx-auto flex justify-center items-center">
+    <div class="grid   grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4">
       <div>
-        <div class="max-w-[270px] bg-white border rounded-lg shadow border-gray-700">
+        <div class="max-w-[370px] bg-white border rounded-lg shadow border-gray-700">
           <a href="#">
             <img class="rounded-t-lg w-full h-40" src="../assets/image/novelnest1.png" alt="" />
           </a>
@@ -66,7 +67,7 @@
         </div>
       </div>
       <div>
-        <div class="max-w-[270px] bg-white border border-gray-200 rounded-lg shadow">
+        <div class="max-w-[370px] bg-white border border-gray-200 rounded-lg shadow">
           <a href="#">
             <img class="rounded-t-lg w-full h-40" src="../assets/image/kjobs.png" alt="" />
           </a>
@@ -96,7 +97,7 @@
         </div>
       </div>
       <div>
-        <div class="max-w-[270px] bg-white border border-gray-200 rounded-lg shadow">
+        <div class="max-w-[370px] bg-white border border-gray-200 rounded-lg shadow">
           <a href="#">
             <img class="rounded-t-lg w-full h-40" src="../assets/image/afrobellecare.png" alt="" />
           </a>
@@ -126,7 +127,7 @@
         </div>
       </div>
       <div>
-        <div class="max-w-[270px] bg-white border border-gray-200 rounded-lg shadow">
+        <div class="max-w-[370px] bg-white border border-gray-200 rounded-lg shadow">
           <a href="#">
             <img class="rounded-t-lg w-full h-40" src="../assets/image/maven.png" alt="" />
           </a>
@@ -158,7 +159,7 @@
         </div>
       </div>
       <div>
-        <div class="max-w-[270px] bg-white border border-gray-200 rounded-lg shadow">
+        <div class="max-w-[370px] bg-white border border-gray-200 rounded-lg shadow">
           <a href="#">
             <img
               class="rounded-t-lg w-full h-40"
@@ -192,7 +193,7 @@
         </div>
       </div>
       <div>
-        <div class="max-w-[270px] bg-white border border-gray-200 rounded-lg shadow">
+        <div class="max-w-[370px] bg-white border border-gray-200 rounded-lg shadow">
           <a href="#">
             <img class="rounded-t-lg w-full h-40" src="../assets/image/image.png" alt="" />
           </a>
@@ -221,7 +222,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   </div>
 </template>
 
