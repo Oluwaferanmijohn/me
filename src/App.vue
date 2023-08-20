@@ -5,6 +5,7 @@ import tools from './views/tools.vue'
 import about from './views/About.vue'
 import project from './views/project.vue'
 import message from './views/message.vue'
+import foot from './views/footer.vue'
 import { RouterLink, RouterView } from 'vue-router'
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
@@ -23,6 +24,7 @@ onMounted(() => {
     <about />
     <project />
     <message />
+    <foot />
   </div>
 </template>
 

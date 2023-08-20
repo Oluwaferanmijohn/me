@@ -12,15 +12,6 @@
       class="container w-full max-w-xl p-8 mx-auto space-y-6 "
     >
      
-        <label for="name" class="block mb-1 ml-1">Name</label>
-        <input
-          id="name"
-          type="text"
-          placeholder="Your name"
-          required
-          class="block w-full p-2 rounded focus:border-none focus:outline-none focus:ring   bg-black"
-        />
-      
       
         <label for="email" class="block mb-1 ml-1">Email</label>
         <input
@@ -36,7 +27,7 @@
         <textarea
           id="message"
           type="text"
-          placeholder="Message..."
+          placeholder="Drop your Message..."
           class="block w-full p-2 rounded focus:outline-none focus:ring   bg-black"
         ></textarea>
       

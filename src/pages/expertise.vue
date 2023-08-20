@@ -1,28 +1,19 @@
 <template>
-    <section class="       text-gray-100">
-    <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-      
-      <div
-        class="grid text-justify gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32"
-      >
+  <section class="text-gray-100">
+    <div class="container flex flex-col justify-center p-4 mx-auto md:p-4">
+      <div class="grid text-justify gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
         <div>
           <p class="mt-1 text-green-600">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
-            fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione, doloremque debitis? Fuga labore
-            omnis minima, quisquam delectus  ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione c ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione ulpa!
+            I am proficient in a variety of programming languages, that i already stated in the
+            tools section of this website above. I am also familiar with vue, react, kotlin, flutter
+            mongoDB, firebase and php. I have experience in developing web applications,
           </p>
         </div>
         <div>
           <p class="mt-1 text-green-600">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,
-            fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione, doloremque debitis? Fuga labore
-            omnis minima, quisquam delectus  ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione ullam enim, odit eaque quia rerum ipsum
-            voluptatem consequatur ratione culpa!
+            mobile applications and I am also an experienced writer. I have written articles, blog
+            posts, and website content on a variety of topics. I am skilled in using grammar and
+            punctuation correctly. I am also able to write in a clear and concise manner.
           </p>
         </div>
       </div>
@@ -31,11 +22,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>

@@ -7,25 +7,25 @@
         <h1
           class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"
         >
-          <span class="text-3xl md:text-4xl xl:text-5xl">Hi there! </span><br />I'm Oluwaferanmi
-          John
+          <span class="group text-2xl md:text-3xl xl:text-4xl">H<span class="text-blue-400">i</span> there<span class="text-blue-400">!</span> </span><br /><span
+            class="group-hover:text-blue-500 transition-transform"
+            >I'm Oluwaferanmi John</span
+          >
         </h1>
-        <p
-          class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl text-gray-400"
-        >
-          I'm skilled in
-          <span class="border-b-2 border-dotted font-normal border-gray-500"
-            >Software Development
-          </span>and &nbsp;
-          <span class="border-b-2 border-dotted font-normal border-gray-500">Content Writing,</span>
-          &nbsp;
+        <p class="max-w-2xl mb-6 font-extralight lg:mb-8 md:text-lg lg:text-xl text-gray-400">
+          I am a
+          <span class="border-b-[1px] text-blue-400 border-dotted border-gray-500"
+            >Software developer</span
+          >&nbsp; and
+          <span class="border-b-[1px] text-blue-400 border-dotted border-gray-500"
+            >Content writer,</span
+          >
+          &nbsp;with a passion for using technology to improve healthcare.
         </p>
         <a
           href="#"
-          class="inline-flex gap-2 hover:border-b-2 border-dotted items-center justify-center px-2 pb-2 mr-3 text-base font-medium text-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
-        >
-          Let's Explore
-          <svg
+          class="inline-flex gap-2 text-blue-400  items-center justify-center border-blue-400 hover:border-b-2 border-dotted pb-2 mr-3 text-base font-medium text-center  bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
+        ><svg
             class="w-4 h-4"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +40,8 @@
               d="M5 1v12m0 0 4-4m-4 4L1 9"
             />
           </svg>
+          <span class="">Let's Explore</span>
+          
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 w-96 h-96 lg:flex">
@@ -61,4 +63,15 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style>
+.transition-transform {
+  transition-property: transform, color;
+  transition-duration: 0.5s; /* Adjust the duration as needed */
+  transition-timing-function: ease-in-out; /* Adjust the timing function as needed */
+}
+
+.group:hover .transition-transform {
+  transform: translateX(10px); /* Adjust the distance the text moves */
+  color: #1a202c; /* New color on hover */
+}
+</style>
