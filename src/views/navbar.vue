@@ -9,7 +9,7 @@
               class="h-10 mr-3 rounded-full"
               alt="Flowbite Logo"
             />
-            <span class="self-center font-extrabold text-2xl text-white">John.</span>
+            <span class="self-center font-extrabold text-2xl text-blue-400">John.</span>
           </a>
         </div>
 
@@ -51,10 +51,9 @@
           <div class="items-center md:block hidden">
             <button
               type="button"
-              class="text-black items-center inline-flex gap-2 bg-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 capitalize"
+              class="text-black items-center hover:bg-blue-500 inline-flex gap-2 bg-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 capitalize"
             >
-              sponsor
-              <div class="fill-current text-black hover:text-red-500 transition-colors">
+              <div class="fill-current text-black hover:text-red-600 transition-colors">
                 <svg
                   class="w-4 h-4"
                   aria-hidden="true"
@@ -71,6 +70,7 @@
                   />
                 </svg>
               </div>
+              <span>sponsor</span>
             </button>
           </div>
         </div>

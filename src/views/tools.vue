@@ -9,8 +9,10 @@
 
       <div class="bg-black items-center gap-12 container flex flex-wrap justify-center mx-auto">
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +28,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +45,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -59,8 +65,10 @@
         </div>
 
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +84,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +103,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -127,8 +139,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -153,8 +167,10 @@
         </div>
 
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -170,8 +186,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -187,8 +205,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -203,8 +223,10 @@
         </div>
 
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -228,8 +250,10 @@
           </div>
         </div>
         <div>
-          <div class="inline-flex items-center gap-2 w-20 h-20">
-            <svg height="20" width="20"  
+          <div class="inline-flex items-center gap-2">
+            <svg
+              height="20"
+              width="20"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
