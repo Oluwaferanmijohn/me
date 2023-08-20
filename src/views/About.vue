@@ -8,7 +8,7 @@
           improve the healthcare industry
         </p>
       </div>
-      <div class="flex md:flex-row flex-col h-44 items-center justify-center place-items-center">
+      <div class="flex md:flex-row flex-col  items-center justify-center place-items-center">
         <div
           class="flex justify-center px-4  my-auto col-span-full md:col-span-1 md:flex-col md:justify-start md:items-start"
         >
