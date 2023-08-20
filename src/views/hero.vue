@@ -7,8 +7,9 @@
         <h1
           class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"
         >
-          <span class="group text-2xl md:text-3xl xl:text-4xl">H<span class="text-blue-400">i</span> there<span class="text-blue-400">!</span> </span><br /><span
-            class="group-hover:text-blue-500 transition-transform"
+          <span class="group text-2xl md:text-3xl xl:text-4xl"
+            >H<span class="text-blue-400">i</span> there<span class="text-blue-400">!</span> </span
+          ><br /><span class="group-hover:text-blue-500 transition-transform"
             >I'm Oluwaferanmi John</span
           >
         </h1>
@@ -24,8 +25,8 @@
         </p>
         <a
           href="#"
-          class="inline-flex gap-2 text-blue-400  items-center justify-center border-blue-400 hover:border-b-2 border-dotted pb-2 mr-3 text-base font-medium text-center  bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
-        ><svg
+          class="inline-flex gap-2 text-blue-400 items-center justify-center border-blue-400 hover:border-b-2 border-dotted pb-2 mr-3 text-base font-medium text-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 focus:ring-primary-900"
+          ><svg
             class="w-4 h-4"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,6 @@
             />
           </svg>
           <span class="">Let's Explore</span>
-          
         </a>
       </div>
       <div class="hidden lg:mt-0 lg:col-span-5 w-96 h-96 lg:flex">

@@ -15,10 +15,11 @@
         </div>
         <div>
           <p class="mt-1">
-            I am currently studying a <span class="text-blue-400 capitalize">branch of medicine</span> at a university in Nigeria. I am passionate
-            about using technology to solve problems in the healthcare sector. I believe that
-            technology has the potential to improve the quality of care for patients and make
-            healthcare more accessible to everyone.
+            I am currently studying a
+            <span class="text-blue-400 capitalize">branch of medicine</span> at a university in
+            Nigeria. I am passionate about using technology to solve problems in the healthcare
+            sector. I believe that technology has the potential to improve the quality of care for
+            patients and make healthcare more accessible to everyone.
           </p>
         </div>
       </div>

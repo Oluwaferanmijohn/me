@@ -116,20 +116,16 @@
   <section class="py-6">
     <div class="container p-4 mx-auto space-y-16 sm:p-10">
       <div class="space-y-4">
-        <h3
-          class="text-gray-100 capitalize text-2xl font-bold leadi sm:text-5xl"
-        >
+        <h3 class="text-gray-100 capitalize text-2xl font-bold leadi sm:text-5xl">
           Portfolio Showcase
         </h3>
         <p class="max-w-2xl text-neutral-600">
-          I possess an unwavering enthusiasm for augmenting my capabilities
-          while exhibiting an unrelenting commitment to ceaseless refinement. As
-          I actively construct my portfolio, I wholeheartedly embrace
-          collaboration opportunities that facilitate my acquisition of novel
-          proficiencies and enable me to make meaningful contributions to
-          projects. I warmly welcome endeavors that serve as conduits for honing
-          my skills and serving as veritable platforms to showcase my
-          professional advancement.
+          I possess an unwavering enthusiasm for augmenting my capabilities while exhibiting an
+          unrelenting commitment to ceaseless refinement. As I actively construct my portfolio, I
+          wholeheartedly embrace collaboration opportunities that facilitate my acquisition of novel
+          proficiencies and enable me to make meaningful contributions to projects. I warmly welcome
+          endeavors that serve as conduits for honing my skills and serving as veritable platforms
+          to showcase my professional advancement.
         </p>
       </div>
 
@@ -139,7 +135,7 @@
         <a
           rel="noopener noreferrer"
           href="#"
-          class=" capitalize flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-blue-600 text-black"
+          class="capitalize flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-blue-600 text-black"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +192,6 @@
           </svg>
           <span>UI/UX</span>
         </a>
-       
       </div>
 
       <!-- <div
@@ -719,25 +714,25 @@
   </section>
 </template>
 <script>
-import graphics from "../upload/graphics.vue";
-import web from "../upload/web.vue";
-import uiux from "../upload/uiux.vue";
+import graphics from '../upload/graphics.vue'
+import web from '../upload/web.vue'
+import uiux from '../upload/uiux.vue'
 export default {
   data() {
     return {
-      activeSection: "web",
-    };
+      activeSection: 'web'
+    }
   },
   methods: {
     toggleContent(section) {
-      this.activeSection = section;
-    },
+      this.activeSection = section
+    }
   },
   components: {
     graphics,
     web,
-    uiux,
-  },
-};
+    uiux
+  }
+}
 </script>
 <style></style>

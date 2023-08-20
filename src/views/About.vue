@@ -3,14 +3,14 @@
     <div class="container mx-auto">
       <div class="p-4 text-left xl:max-w-2xl">
         <h2 class="text-2xl font-bold leadi sm:text-4xl">About Me</h2>
-        <p class="my-4 text-neutral-600">
+        <p class="my-4 text-gray-400">
           Read more about my passion-driven pursuits in using web development and content writing to
           improve the healthcare industry
         </p>
       </div>
-      <div class="flex md:flex-row flex-col  items-center justify-center place-items-center">
+      <div class="flex md:flex-row flex-col items-center justify-center place-items-center">
         <div
-          class="flex justify-center px-4  my-auto col-span-full md:col-span-1 md:flex-col md:justify-start md:items-start"
+          class="flex justify-center px-4 my-auto col-span-full md:col-span-1 md:flex-col md:justify-start md:items-start"
         >
           <button
             @click="toggleContent('introduction')"
@@ -22,7 +22,7 @@
               'border-b-2 border-white md:border-l-2 md:border-b-0':
                 activeSection !== 'introduction'
             }"
-            class="p-2 border-b-2 md:border-l-2 md:border-b-0 md:py-3  text-gray-400"
+            class="p-2 border-b-2 md:border-l-2 md:border-b-0 md:py-3 text-gray-400"
           >
             Intro
           </button>
@@ -48,7 +48,7 @@
                 activeSection === 'expertise',
               'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'expertise'
             }"
-            class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3  text-gray-400"
+            class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 text-gray-400"
           >
             Expertise
           </button>
@@ -61,7 +61,7 @@
                 activeSection === 'experience',
               'border-b-2 border-white md:border-l-2 md:border-b-0': activeSection !== 'experience'
             }"
-            class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3  text-gray-400"
+            class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 text-gray-400"
           >
             Experience
           </button>

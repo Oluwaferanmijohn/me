@@ -2,7 +2,7 @@
   <div class="bg-black max-w-screen-xl px-4 py-8 mx-auto">
     <div class="py-4 text-left xl:max-w-2xl">
       <h2 class="text-xl text-white font-bold leadi sm:text-4xl">My Projects</h2>
-      <p class="my-4 text-neutral-600">
+      <p class="my-4 text-gray-400">
         Here are the projects I have completed, am currently working on, and have in mind to do in
         the near future
       </p>
@@ -11,19 +11,19 @@
       <button
         @click="toggleContent('all')"
         type="button"
-        class="border bg-white focus:ring-4 focus:outline-none rounded-full  font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500 focus:ring-blue-800"
+        class="border bg-white focus:ring-4 focus:outline-none rounded-full font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500 focus:ring-blue-800"
       >
         All
       </button>
       <button
         type="button"
-        class="text-gray-900 border capitalize hover:border-gray-200 border-gray-900 bg-white focus:ring-4 focus:outline-none rounded-full  font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs focus:ring-gray-800"
+        class="text-gray-900 border capitalize hover:border-gray-200 border-gray-900 bg-white focus:ring-4 focus:outline-none rounded-full font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs focus:ring-gray-800"
       >
         software development
       </button>
       <button
         type="button"
-        class="text-gray-900 capitalize border hover:border-gray-200 border-gray-900 bg-white focus:ring-4 focus:outline-none rounded-full  font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs focus:ring-gray-800"
+        class="text-gray-900 capitalize border hover:border-gray-200 border-gray-900 bg-white focus:ring-4 focus:outline-none rounded-full font-medium px-5 py-2.5 text-center mr-3 mb-3 text-xs focus:ring-gray-800"
       >
         Creative Write-ups
       </button>
