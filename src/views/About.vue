@@ -99,7 +99,7 @@
           data-popover-target="popover-default"
           class="border-neutral-600 border-b-2 border-dotted text-neutral-600 hover:border-neutral-800 hover:text-neutral-300"
         >
-          Download CV
+          Click to see all certificates earned
         </button>
         <div
           data-popover
