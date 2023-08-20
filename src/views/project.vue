@@ -2,7 +2,7 @@
   <div class="bg-black max-w-screen-xl px-4 py-8 mx-auto">
     <div class="py-4 text-left xl:max-w-2xl">
       <h2 class="text-xl text-white font-bold leadi sm:text-4xl">My Projects</h2>
-      <p class="my-4 text-gray-400">
+      <p class="my-4 text-gray-700">
         Here are the projects I have completed, am currently working on, and have in mind to do in
         the near future
       </p>
@@ -66,7 +66,7 @@
               <p>
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">kjobs</h5>
               </p>
-              <p class="mb-3 text-xs font-normal text-gray-400">
+              <p class="mb-3 text-xs font-normal text-gray-700">
                 Kinplus jobs makes it easier to search, find and connect to your next big opportunity either as an employer or an employee..
               </p>
               <div class="flex justify-between px-1">
@@ -99,7 +99,7 @@
               <p>
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">afrobellecare</h5>
               </p>
-              <p class="mb-3 text-xs font-normal text-gray-400">
+              <p class="mb-3 text-xs font-normal text-gray-700">
                 Bellecare provides African cuisine that can be enjoyed anywhere in the world, allowing people to eat their desired dishes without having to worry about location, time, or cooking skills..
               </p>
               <div class="flex justify-between px-1">
@@ -130,7 +130,7 @@
                   maven BMI calculator
                 </h5>
               </p>
-              <p class="mb-3 text-xs font-normal text-gray-400">
+              <p class="mb-3 text-xs font-normal text-gray-700">
                 Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse
                 chronological order.
               </p>
@@ -166,7 +166,7 @@
                   Ekiti Campus Hack
                 </h5>
               </p>
-              <p class="mb-3 text-xs font-normal text-gray-400">
+              <p class="mb-3 text-xs font-normal text-gray-700">
                 To provide tech solutions to problems and challenges affecting students schooling in higher institutions in Ekiti State using technology.
               </p>
               <div class="flex justify-between px-1">
@@ -195,7 +195,7 @@
               <p>
                 <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900">lybri</h5>
               </p>
-              <p class="mb-3 text-xs font-normal text-gray-400">
+              <p class="mb-3 text-xs font-normal text-gray-700">
                 Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse
                 chronological order.
               </p>
