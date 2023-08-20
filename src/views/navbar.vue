@@ -23,25 +23,37 @@
               </li>
 
               <li>
-                <a class="transition text-gray-500 hover:text-gray-500 /75" href="/">
+                <a
+                  class="transition text-gray-500 hover:text-gray-500 /75"
+                  href="https://twitter.com/d_realphenry?t=EllZmi49Z1bVQLDKbOgQUA&s=08"
+                >
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a class="transition text-gray-500 hover:text-gray-500 /75" href="/">
+                <a
+                  class="transition text-gray-500 hover:text-gray-500 /75"
+                  href="https://www.linkedin.com/in/oluwatoyin-feranmi-john-69b703246"
+                >
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a class="transition text-gray-500 hover:text-gray-500 /75" href="/">
+                <a
+                  class="transition text-gray-500 hover:text-gray-500 /75"
+                  href="https://instagram.com/drealphenry?igshid=NGExMmI2YTkyZg=="
+                >
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
 
               <li>
-                <a class="transition text-gray-500 hover:text-gray-500 /75" href="/">
+                <a
+                  class="transition text-gray-500 hover:text-gray-500 /75"
+                  href="https://avatars.githubusercontent.com/u/106152705?v=4"
+                >
                   <ion-icon name="logo-github"></ion-icon>
                 </a>
               </li>
